@@ -63,7 +63,7 @@ tramp
 # cask packages
 .cask/
 
-
+### Bootstrap ###
 ### SublimeText ###
 # cache files for sublime text
 *.tmlanguage.cache
@@ -79,3 +79,6 @@ tramp
 
 # sftp configuration file
 sftp-config.json
+
+*.png
+LICENSE
