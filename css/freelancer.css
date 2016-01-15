@@ -179,6 +179,7 @@ header .intro-text .skills {
 
 section {
     padding: 100px 0;
+    height: 800px;
 }
 
 section h2 {
@@ -188,7 +189,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #4d0000;
 }
 
 section.success a,
