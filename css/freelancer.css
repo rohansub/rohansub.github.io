@@ -65,17 +65,17 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background-image: url(../img/chicago.png);
-    background: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 100%;
+    background-image: url(../img/background.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
 }
 
 header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 125px;
+    padding-bottom: 150px;
 }
 
 header img {
@@ -89,6 +89,8 @@ header .intro-text .name {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
+    margin-top: -1em;
+
 }
 
 header .intro-text .skills {
@@ -96,42 +98,39 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
-@media(min-width:768px) {
-    header .container {
-        padding-top: 150px;
-        padding-bottom: 100px;
-    }
+@media(min-width:1000px) {
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 2.50em;
+        margin-top: -1em;
     }
 
     header .intro-text .skills {
-        font-size: 1.75em;
+        font-size: 1.50em;
     }
 }
 
-@media(min-width:768px) {
+@media(min-width:1000px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 15px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
     }
 
     .navbar-fixed-top .navbar-brand {
-        font-size: 2em;
+        font-size: 1.75em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
     }
 
     .navbar-fixed-top.navbar-shrink {
-        padding: 10px 0;
+        padding: 5px 0;
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        font-size: 1.0em;
     }
 }
 
@@ -143,6 +142,9 @@ header .intro-text .skills {
 
 .navbar a:focus {
     outline: 0;
+}
+.navbar-brand{
+    font-size: 1em;
 }
 
 .navbar .navbar-nav {
@@ -157,17 +159,11 @@ header .intro-text .skills {
 .navbar-inverse {
     border: 0;
 }
-.navbar-custom {
-    background-color: #000000;
-}
-.navbar-custom li:hover {
-    outline: 0;
-    color: #4d0000;
-}
+
 
 section {
-    padding: 100px 0;
-    height: 800px;
+    padding: 75px 0;
+    min-height: 650px;
 }
 
 section h2 {
@@ -190,9 +186,6 @@ section.success a.active {
 }
 
 @media(max-width:767px) {
-    section {
-        padding: 75px 0;
-    }
 
     section.first {
         padding-top: 75px;
@@ -272,7 +265,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #4d0000;
+    color: #a60000;
     background: #fff;
 }
 
