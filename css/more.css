@@ -4,3 +4,11 @@
     height: 400px;
     width: auto;
 }
+
+#skills{
+  text-align: left;
+  font-size: 1em;
+}
+#mySkills{
+  margin-bottom:0;
+}
