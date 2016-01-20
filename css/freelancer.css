@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #4d0000;
+    color: #000090;
 }
 
 h1,
@@ -136,6 +136,7 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    background-color: #003f50;
 }
 
 .navbar a:focus {
@@ -166,12 +167,13 @@ section {
 
 section h2 {
     margin: 0;
-    font-size: 3em;
+    font-size: 2.75em;
 }
 
 section.success {
-    color: #fff;
-    background: #4d0000;
+    color: #000080;
+    background: #293f50;
+
 }
 
 section.success a,
@@ -209,7 +211,7 @@ section.success a.active {
     width: 100%;
     height: 100%;
     opacity: 0;
-    background: #a60000;
+    background: #000080;
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -263,7 +265,7 @@ section.success a.active {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #a60000;
+    color: #000080;
     background: #fff;
 }
 
@@ -316,7 +318,7 @@ section.success a.active {
 }
 
 .floating-label-form-group-with-focus label {
-    color: #4d0000;
+    color: #000090;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -333,7 +335,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #000000;
+    background-color: #003f50;
 }
 
 footer .footer-col {
@@ -396,7 +398,7 @@ footer .footer-below {
 
 .portfolio-modal .modal-content h2 {
     margin: 0;
-    font-size: 3em;
+    font-size: 2.75em;
 }
 
 .portfolio-modal .modal-content img {
