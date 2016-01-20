@@ -171,8 +171,9 @@ section h2 {
 }
 
 section.success {
-    color: #000080;
-    background: #293f50;
+    color: #fff;
+    /*background: #293f50;*/
+    background: radial-gradient(#648880, #293f50);
 
 }
 
@@ -344,7 +345,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #000000;
+    background-color: #003f50;
 }
 
 .btn-social {

@@ -10,9 +10,9 @@
     font-size: 1em;
     /*background-color:#35586C;*/
     height:400px;
-    color: #000080;
+    color: #fff;
     font-family: monospace;
-    background: radial-gradient(#648880, #293f50);
+    /*background: radial-gradient(#648880, #293f50);*/
     /*font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier;*/
 
 }
