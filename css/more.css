@@ -1,8 +1,11 @@
 .carousel-inner{
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
     height: 400px;
     width: auto;
+}
+.carousel-control {
+    width: 5%;
 }
 
 #skills{
