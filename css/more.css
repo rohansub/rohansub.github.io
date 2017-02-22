@@ -51,6 +51,13 @@
   text-align: center;
   color: white;
 }
+.box p{
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+}
 
 .box .front,
 .box .back {
@@ -82,7 +89,7 @@
 
 .box .front,
 .box .back {
-  background: #002b37;
+  background: #006A87;
 }
 
 .box .right,
@@ -203,7 +210,7 @@ ul#options li button {
   font-family: 'Lato';
   text-transform: uppercase;
   font-size: 14px;
-  background: #002b37;
+  background: #006A87;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px;
@@ -235,7 +242,7 @@ p.link a {
   color: #fff;
   padding: 5px 10px;
   margin: 0 5px;
-  background-color: #002b37;
+  background-color: #006A87;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
