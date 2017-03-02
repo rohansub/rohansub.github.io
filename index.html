@@ -12,11 +12,11 @@
     <title>Rohan Subramananiam</title>
 
     <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
-    <link href="css/more.css" rel="stylesheet">
+    <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="css/more.min.css" rel="stylesheet">
 
 
     <!-- Custom Fonts -->
@@ -62,7 +62,7 @@
                         <a href="#mySkills">My Skills</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#portfolio">Portfolio</a>
+                        <a href="#Experience">My Experience</a>
                     </li>
 
                     <!-- <li class="page-scroll">
@@ -80,7 +80,7 @@
     <div>
 
 
-</div>
+    </div>
 
     <!-- Header -->
     <header>
@@ -117,7 +117,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <img src="img/about_me.png" width="40%" align="right" style="margin: 0px 0px 0px 0px;">
-                    <p >Hello, my name is Rohan and I am from Sunnyvale, California. As a Computer Science student at University of Illinois at Urbana-Champaign, I am passionate about programming and eager to strengthen my skills and eventually join the work force as a Software Developer. Take a look at this site to learn more about me and some of the cool projects I have made! I will continue to update this site regularly, and add more about myself!</p>
+                    <p>Hello, my name is Rohan and I am from Sunnyvale, California. As a Computer Science student at University of Illinois at Urbana-Champaign, I am passionate about programming and eager to strengthen my skills and eventually join the work
+                        force as a Software Developer. Take a look at this site to learn more about me and some of the cool projects I have made! I will continue to update this site regularly, and add more about myself!</p>
                     <p></p>
                 </div>
 
@@ -125,54 +126,97 @@
         </div>
     </section>
     <!-- Skills Section -->
-    <section class="success"id="mySkills">
+    <section class="success" id="mySkills">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>My Skills</h2>
                     <hr class="star-primary">
-                    <button type="button" style = "float: right;"class="btn btn-success btn-lg"onclick="start()" >Run</button>
+                    <button type="button" style="float: right;" class="btn btn-success btn-lg" onclick="start()">Run</button>
                     <p></p>
                     <p id="skills">>&#160;&#160;&#160;&#160;&#160;&#160;&#160;_</p>
-                    <script src="js/text_animation.js"></script>
+                    <script src="js/text_animation.min.js"></script>
                 </div>
             </div>
 
-            </div>
+        </div>
         </div>
     </section>
     <!-- Portfolio Section -->
-    <section id="portfolio">
+    <section id="Experience">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h2>Portfolio</h2>
+                <h2>My Experience</h2>
                 <hr class="star-light">
             </div>
         </div>
         <div id="contentBox" style="margin:0px auto; width:100%">
             <div class="row">
                 <div class="container2">
-                  <div id="box" class="box show-front">
-                    <figure class="front"><h1>Project 415x</h2></figure>
-                    <figure class="back">
-                        <p>
-                            I am currently contributing to a linear algebra web game started by a Mathematics professor at my university.
-                            The purpose of the game is to increase students' intuition of linear algebra. I have helped develop upon the logic
-                            and design of the game by writing code in Javascript, HTML and CSS, and by utilizing my knowledge of linear transformations,
-                            matrix operations, and other linear algebra concepts.
-                        </p>
-                    </figure>
-                    <figure class="right"></figure>
-                    <figure class="left"></figure>
-                    <figure class="top"></figure>
-                    <figure class="bottom"></figure>
-                  </div>
+                    <div id="box" class="box show-front">
+
+                        <figure class="front">
+                            <h3>CS233 Teaching Assistant</h3></figure>
+                        </figure>
+                        <figure class="back">
+                            <p>
+                                I don't just enjoy learning about Computer Science. I am passionate about spreading my knowledge as well! Since Fall of 2016, I have been a teaching assistant for CS233 at University of Illinois, a Computer Architecture Course. I help students learn the
+                                subject by hosting office hours and leading lab section on a weekly basis.
+                            </p>
+                        </figure>
+                        <figure class="right"></figure>
+                        <figure class="left"></figure>
+                        <figure class="top"></figure>
+                        <figure class="bottom"></figure>
+                    </div>
                 </div>
             </div>
             <div class="row">
                 <div id="column1" style="float:left; margin:0; width:50%;">
                     <div class="container2">
-                      <div id="box" class="box show-front">
+                        <div id="box" class="box show-front">
+                            <figure class="front">
+                                <h3>Project 415x</h3>
+                            </figure>
+                            <figure class="back">
+                                <p>
+                                    Since the summer of 2016, I have been contributing to a linear algebra web game started by Cary Malkiewich, a Mathematics professor at my university. The purpose of the game is to increase students' intuition of linear algebra. I have helped develop upon
+                                    the logic and design of the game by writing code in Javascript, HTML and CSS, and by utilizing my knowledge of linear transformations, matrix operations, and other linear algebra concepts.
+                                </p>
+                            </figure>
+                            <figure class="right"></figure>
+                            <figure class="left"></figure>
+                            <figure class="top"></figure>
+                            <figure class="bottom"></figure>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="column2" style="float:left; margin:0;width:50%;">
+                    <div class="container2">
+                        <div id="box" class="box show-front">
+
+                            <figure class="front">
+                                <h3>Undergraduate Research Assistant</h3>
+                            </figure>
+                            <figure class="back">
+                                <p>
+                                    I am very excited to be exploring Cloud Computing technology as a research assistant! I am currently working with Professor Gul Agha and his team on a project involving actor-oriented parallelized programming on mobile devices. The project has allowed
+                                    me to gain experience with the Salsa Programming language (an actor-oriented language based on Java) as well as Android Studio.
+                                </p>
+                            </figure>
+                            <figure class="right"></figure>
+                            <figure class="left"></figure>
+                            <figure class="top"></figure>
+                            <figure class="bottom"></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container2">
+                    <div id="box" class="box show-front">
 
                         <figure class="front"></figure>
                         <figure class="back"></figure>
@@ -180,36 +224,7 @@
                         <figure class="left"></figure>
                         <figure class="top"></figure>
                         <figure class="bottom"></figure>
-                      </div>
                     </div>
-
-                </div>
-
-                <div id="column2" style="float:left; margin:0;width:50%;">
-                        <div class="container2">
-                          <div id="box" class="box show-front">
-
-                            <figure class="front"></figure>
-                            <figure class="back"></figure>
-                            <figure class="right"></figure>
-                            <figure class="left"></figure>
-                            <figure class="top"></figure>
-                            <figure class="bottom"></figure>
-                          </div>
-                        </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="container2">
-                  <div id="box" class="box show-front">
-
-                    <figure class="front"></figure>
-                    <figure class="back"></figure>
-                    <figure class="right"></figure>
-                    <figure class="left"></figure>
-                    <figure class="top"></figure>
-                    <figure class="bottom"></figure>
-                  </div>
                 </div>
             </div>
 
@@ -254,19 +269,19 @@
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
     <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/cbpAnimatedHeader.js"></script>
+    <script src="js/classie.min.js"></script>
+    <script src="js/cbpAnimatedHeader.min.js"></script>
 
     <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+    <script src="js/jqBootstrapValidation.min.js"></script>
+    <script src="js/contact_me.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="js/freelancer.js"></script>
+    <script src="js/freelancer.min.js"></script>
 
 </body>
 
