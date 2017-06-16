@@ -13,16 +13,19 @@
 #skills {
     text-align: left;
     font-size: 1em;
-    /*background-color:#35586C;*/
-    height: 400px;
-    color: #fff;
+    background: rgba(0,0,0,0.8);
+    height: 450px;
+    width: 100%;
+    color: #32CD32;
     font-family: monospace;
+
     /*background: radial-gradient(#648880, #293f50);*/
     /*font-family: Inconsolata, Monaco, Consolas, 'Courier New', Courier;*/
 }
 
 #mySkills {
     height: 700px;
+    color: black;
 }
 
 .container2 {
@@ -56,6 +59,7 @@
 }
 
 .box p {
+    font-size: 18px;
     margin-left: 20px;
     margin-top: 20px;
     margin-right: 20px;

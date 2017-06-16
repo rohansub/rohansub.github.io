@@ -6,6 +6,10 @@
 
 body {
     overflow-x: hidden;
+    background-image: url(../img/background.png); top right no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 p {
@@ -65,7 +69,6 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    background-image: url(../img/background.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -163,6 +166,10 @@ header .intro-text .skills {
 section {
     padding: 75px 0;
     min-height: 650px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    background: rgba(255,255,255,0.8);
 }
 
 section h2 {
@@ -173,7 +180,7 @@ section h2 {
 section.success {
     color: #fff;
     /*background: #293f50;*/
-    background: radial-gradient(#648880, #293f50);
+    /*background: radial-gradient(#648880, #293f50);*/
 
 }
 

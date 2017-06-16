@@ -3,7 +3,7 @@
   Author: Rohan Subramaniam
 */
 
-var str = "#include <vector>\n#include <iostream>\n\nstruct Coder{\n\tstd::string bestSkill;\n\tstd::vector<std::string> profictientWith;\n\tstd::vector<std::string> knowAbout;\n\tbool readyForMore;\n};\nint main(){\n\tCoder Rohan;\n\tCoder *p = &Rohan;\n\tp->bestSkill = \"C\";\n\tp->proficientWith = { \"Python\", \"Java\", \"C++\", \"Git\" };\n\tp->knowAbout = { \"JavaScript\", \"HTML\", \"CSS\", \"Django\" };\n\tp->readyForMore = true;\n\treturn 0;\n}";
+var str = '#include <vector>\n#include <iostream>\nstruct Coder{\n\tstd::string bestSkill;\n\tstd::vector<std::string> profictientWith;\n\tstd::vector<std::string> knowAbout;\n\tstd::vector<std::string> interests;\n\tbool readyForMore;\n};\nint main(){\n\tCoder Rohan;\n\tCoder *p = &Rohan;\n\tp->bestSkill = "C";\n\tp->proficientWith = { "Python", "Java", "C++", "Git" };\n\tp->knowAbout = { "JavaScript", "HTML", "CSS", "Django" };\n\tp->intersts = {"Machine Learning", "Systems Programming", "Computer Security"}\n\tp->readyForMore = true;\n\treturn 0;\n}\n';
 
 var i;
 // var rowNumber;
