@@ -3,6 +3,8 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+@import url('https://fonts.googleapis.com/css?family=Arvo:700i');
 
 body {
     overflow-x: hidden;
@@ -68,7 +70,7 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #fff;
+    color: #000090;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -89,7 +91,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Arvo', cursive;
     font-size: 2em;
     font-weight: 700;
 
@@ -98,11 +100,14 @@ header .intro-text .name {
 header .intro-text .skills {
     font-size: 1.25em;
     font-weight: 300;
+    background-color: rgba(256, 256, 256, 0.50);
+    font-family: 'Tangerine', cursive;
 }
 
 @media(min-width:1000px) {
 
     header .intro-text .name {
+        background-color: rgba(256, 256, 256, 0.25);
         font-size: 2.75em;
     }
 
