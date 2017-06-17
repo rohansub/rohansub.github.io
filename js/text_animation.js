@@ -16,7 +16,7 @@ var timer;
 function start() {
     cur = '_';
     tab = "&#160;&#160;&#160;&#160;&#160;&#160;&#160;";
-    document.getElementById("skills").innerHTML = ">&#160;&#160;&#160;&#160;&#160;&#160;&#160;_";
+    document.getElementById("skills").innerHTML = "$&#160;&#160;&#160;&#160;&#160;&#160;&#160;_";
     cursorOn = true;
     // rowNumber = 2;
     i = 0;
@@ -32,7 +32,7 @@ function addText() {
         if (str.charAt(i) == '\n') {
             x = document.getElementById("skills").innerHTML.substring(0, document.getElementById("skills").innerHTML.length - 1);
             // if(rowNumber == 10){tab = "&#160;&#160;&#160;&#160;&#160;";}
-            document.getElementById("skills").innerHTML = x + "<br />" + ">" + tab + cur;
+            document.getElementById("skills").innerHTML = x + "<br />" + "$" + tab + cur;
             // rowNumber++;
         } else if (str.charAt(i) == '\t') {
             x = document.getElementById("skills").innerHTML.substring(0, document.getElementById("skills").innerHTML.length - 1);

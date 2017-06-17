@@ -166,9 +166,9 @@ header .intro-text .skills {
 section {
     padding: 75px 0;
     min-height: 650px;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-bottom: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
     background: rgba(255,255,255,0.8);
 }
 
