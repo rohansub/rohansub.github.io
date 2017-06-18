@@ -21,7 +21,7 @@
     background: rgba(0,0,0,0.8);
     height: 450px;
     width: 100%;
-    color: #32CD32;
+    color: #ffffff;
     font-family: monospace;
 
     /*background: radial-gradient(#648880, #293f50);*/
@@ -96,7 +96,7 @@
 }
 
 .box .front, .box .back {
-    background: #006A87;
+    background: #444444;
 }
 
 .box .right, .box .left, .box .top, .box .bottom {
