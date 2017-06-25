@@ -5,7 +5,6 @@
     height: 400px;
     width: auto;
 }
-
 .carousel-control {
     width: 5%;
 }
@@ -260,4 +259,10 @@ p.link a {
 
 p.link a:hover {
     background-color: black;
+}
+
+#box_arch {
+    /*background-image: url('../img/comp.png');*/
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
